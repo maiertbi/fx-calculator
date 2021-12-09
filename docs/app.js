@@ -1,5 +1,5 @@
-// const fixerUri = 'https://data.fixer.io/api/latest?base=EUR&symbols=USD,SEK,CHF&access_key=API_KEY';
 const fixerUri = "fixer.json";
+// const fixerUri = 'https://data.fixer.io/api/latest?base=EUR&symbols=USD,SEK,CHF&access_key=API_KEY';
 
 async function convert(inputValue, inputCurrency, outputCurrency) {
     const response = await fetch(fixerUri);
